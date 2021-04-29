@@ -1,0 +1,21 @@
+name: Herbarium
+type: theme
+description: 'Drupal 9 theme for herbarium.islandarchives.ca'
+version: VERSION
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: stable
+
+libraries:
+    - herbarium/global
+
+regions:
+  menus: Menus
+  search: Search
+  header: Header
+  breadcrumb: Breadcrumb
+  help: Help
+  content: Content
+  feature: Feature
+  sidebar: Sidebar
+  footer: Footer

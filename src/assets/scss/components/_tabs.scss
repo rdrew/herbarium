@@ -1,0 +1,36 @@
+// Styling for Drupal tabs.
+
+.tabs,
+.tabs--primary,
+.tabs--secondary {
+  @include menu-direction(vertical);
+
+
+  margin: 1rem 0;
+
+  a {
+    background-color: $light-gray;
+    border: 1px solid $light-gray;
+    border-bottom: none;
+    margin-right: 0.5rem;
+  }
+
+  li:first-child a {
+  }
+
+  a.is-active {
+    background-color: $white;
+  }
+  @include breakpoint( medium ) {
+    @include menu-direction(horizontal);
+
+  a {
+    margin-right: 0.5rem;
+  }
+
+  li:first-child a {
+    margin-left: 0.5rem;
+  }
+  border-bottom: 2px solid $light-gray;
+  }
+}

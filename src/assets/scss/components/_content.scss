@@ -1,0 +1,16 @@
+// Styling for content elements.
+
+.content__main,
+.content__sidebar,
+.content__footer {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  /*margin-left: $global-margin;*/
+  /*margin-right: $global-margin;*/
+}
+.content__footer {
+  padding-top: $global-padding;
+  padding-bottom: $global-padding;
+  /*margin-left: $global-margin;*/
+  /*margin-right: $global-margin;*/
+}

@@ -1,8 +1,8 @@
 #PROXY: "amars.discoveryspace.ca"
-PROXY: "d8-dev.local"
+PROXY: "herbarium.islandarchives.ca"
 LOCALPROXY: "d8-dev.local"
 
-THEMENAME: "amars"
+THEMENAME: "herbarium"
 
 # Your project's server will run on localhost:xxxx at this port
 PORT: 8000

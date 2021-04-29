@@ -1,8 +1,0 @@
-/*howdy! Put your css here!*/
-.geolocation-latlng {
-    display: none;
-     }
-.js .geolocation-latlng {
-    display: block;
-     }
-.geolocation {display: none};

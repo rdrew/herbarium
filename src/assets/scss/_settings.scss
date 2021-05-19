@@ -43,6 +43,10 @@
 @import 'util/util';
 //@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700|Rufina:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+$modularscale: (
+  base: 1em,
+  ratio: 1.25
+);
 // 1. Global
 // ---------
 

@@ -10,12 +10,15 @@
 //padding-bottom: $global-padding * 2;
 //}
 
-.frontpage-blocks,
+//.frontpage-blocks,
+.views-infinite-scroll-content-wrapper,
 .grid-container {
+  margin-top: $global-margin;
   display: grid;
   grid-column-gap: 50px;
   grid-template-columns: auto auto;
-  padding: 10px;
+  padding: $global-padding;
+  padding-top: $global-padding * 2;
 }
 
 .grid-item {
@@ -47,24 +50,28 @@
 }
 .lp-block__title {
   @include card-divider;
-  @extend h3;
+  //@extend h3;
+  font-size: ms(2);
   margin-bottom: 0;
 }
 .lp-block__content {
   img {
     width: 300px;
     height: auto;
+    margin-right: $global-margin;
     @extend .thumbnail;
   }
   @include card-section;
   display: flex;
   dl {
+    margin-left: 1rem;
+    font-size: ms(0);
   }
   dt {
     float: left;
     clear: left;
-    width: 150px;
-    text-align: right;
+    width: rem-calc(130);
+    //text-align: right;
   }
   dt::after {
     content: ':';

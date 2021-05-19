@@ -11,6 +11,7 @@
     display: none;
   }
   @extend .input-group;
+  margin-bottom: 0;
 }
 
 .node-form * {

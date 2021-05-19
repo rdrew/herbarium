@@ -16,7 +16,7 @@
   margin-top: $global-margin;
   display: grid;
   grid-column-gap: 50px;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto auto;
   padding: $global-padding;
   padding-top: $global-padding * 2;
 }
@@ -47,12 +47,16 @@
   img {
     //max-height: 290px;
   }
+  article > div:first-child > div:first-child {
+    display: none;
+  }
 }
 .lp-block__title {
   @include card-divider;
   //@extend h3;
-  font-size: ms(2);
+  background: $herbarium-light-green;
   margin-bottom: 0;
+  display: none;
 }
 .lp-block__content {
   img {
@@ -62,7 +66,7 @@
     @extend .thumbnail;
   }
   @include card-section;
-  display: flex;
+  //display: flex;
   dl {
     margin-left: 1rem;
     font-size: ms(0);
@@ -70,7 +74,7 @@
   dt {
     float: left;
     clear: left;
-    width: rem-calc(130);
+    width: rem-calc(110);
     //text-align: right;
   }
   dt::after {

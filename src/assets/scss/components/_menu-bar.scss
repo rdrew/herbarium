@@ -62,7 +62,7 @@
 
 header {
 
-  background: $black;
+  //background: $black;
 
 }
 .menu-bar__wrapper {
@@ -74,7 +74,7 @@ header {
 }
 .topbar-responsive-logo img {
 }
-$topbar-responsive-bg: #2c3840;
+$topbar-responsive-bg: $herbarium-green;
 $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 $topbar-unstack-breakpoint: large;
 $dropdown-button-color: $blue;
@@ -94,7 +94,7 @@ $dropdown-button-color: $blue;
       margin-left: rem-calc(20px);
     }
 
-    background: $topbar-responsive-bg;
+    background: $herbarium-dark-green;
 
       li.is-dropdown-submenu-parent:last-of-type {
         @include breakpoint( large ) {

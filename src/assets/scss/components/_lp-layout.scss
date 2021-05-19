@@ -1,16 +1,30 @@
-.menu--account .menu-item a {
-  @include button();
-  margin: 0;
-}
-nav#block-useraccountmenu {
-  float: right;
-}
-.content__feature {
-  padding-bottom: $global-padding * 2;
+//@format
+//.menu--account .menu-item a {
+//@include button();
+//margin: 0;
+//}
+//nav#block-useraccountmenu {
+//float: right;
+//}
+//.content__feature {
+//padding-bottom: $global-padding * 2;
+//}
+
+.frontpage-blocks,
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto;
+  padding: 10px;
 }
 
-/*imove rhis to its own partial*/
-
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 .lp-card__container {
   @include grid-column();
   @include breakpoint(medium) {
@@ -39,7 +53,7 @@ nav#block-useraccountmenu {
 .lp-block__content {
   img {
     width: 300px;
-    height:auto;
+    height: auto;
     @extend .thumbnail;
   }
   @include card-section;

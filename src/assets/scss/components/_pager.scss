@@ -1,0 +1,7 @@
+//@format
+.pager__items {
+  @include pagination-container;
+  .is-acti.is-activeve a {
+    @include pagination-item-current;
+  }
+}

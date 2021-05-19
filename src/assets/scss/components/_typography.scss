@@ -1,14 +1,28 @@
+//@format
 .site_name {
   font-family: $header-font-family;
-font-size:rem-calc(31);
-line-height: 1;
+  font-size: ms(3);
+  line-height: 1;
 
-color: $white;
-margin-bottom: 0;
-
+  color: $white;
+  margin-bottom: 0;
 }
 .subheader {
   font-size: rem-calc(20);
   font-family: $body-font-family;
   margin: 0;
+}
+h1 {
+  font-size: ms(3);
+}
+h2 {
+  font-size: ms(2);
+}
+h3 {
+  font-size: ms(1);
+}
+dl,
+dt,
+dd {
+  font-size: ms(0);
 }

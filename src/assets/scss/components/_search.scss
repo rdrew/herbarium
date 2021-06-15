@@ -6,3 +6,25 @@
 .block-facet--links {
   background-color: white;
 }
+.herbarium-search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .views-row {
+  }
+}
+
+.gmap article {
+  font-size: 1rem;
+  font-family: 'Old Standard TT', serif;
+  a {
+    font-size: 1.1rem;
+  }
+  h2 {
+    display: none;
+  }
+  img {
+    @extend .thumbnail;
+    width: 100%;
+  }
+}

@@ -55,12 +55,13 @@
     <div class="small-12 columns site-help__wrapper">
       {{ page.help }}
     </div>
-{#    {% set content_class = page.sidebar ? 'medium-8' : 'medium-12' %} #}
+    {% set content_class = page.sidebar ? 'medium-8' : 'medium-12' %}
     <div class="small-12 {{ content_class }} columns content__main">
       {{ page.content }}
     </div>
     {% if page.sidebar %}
       <aside class="small-12 medium-4 columns content__sidebar" role="complementary">
+<h2>Taxonomy</h2>
         {{ page.sidebar }}
       </aside>
     {% endif %}
